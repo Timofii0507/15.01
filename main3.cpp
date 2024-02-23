@@ -36,7 +36,7 @@ public:
         if (!IsEmpty()) {
             return elements.back().first;
         }
-        return T(); // Return default value if queue is empty
+        return T(); 
     }
 
     void Show() {
